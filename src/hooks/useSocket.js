@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
 
-const SOCKET_URL = 'http://localhost:5000';
+const SOCKET_URL = 'https://collaborative-todo-backend-1.onrender.com';
 
 export default function useSocket(eventHandlers = {}) {
   const socketRef = useRef(null);

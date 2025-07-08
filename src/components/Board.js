@@ -5,7 +5,7 @@ import { io } from 'socket.io-client';
 import Column from './Column';
 import ActivityLog from './ActivityLog';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://collaborative-todo-backend-1.onrender.com');
 const columns = ['Todo', 'In Progress', 'Done'];
 
 export default function Board() {
